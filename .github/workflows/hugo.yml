@@ -31,7 +31,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.2
+      HUGO_VERSION: 0.148.2
     steps:
       - name: Install Hugo CLI
         run: |
@@ -55,7 +55,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://charles-marsh.github.io/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
