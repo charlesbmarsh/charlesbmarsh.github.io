@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://charles-marsh.github.io/sitemap.xml
