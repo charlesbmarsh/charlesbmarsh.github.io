@@ -1,0 +1,92 @@
+{{- define "main" }}
+
+<div class="profile">
+    <div class="profile_inner" style="position: relative;">
+        <!-- Open Availability Status Indicator -->
+        <div style="position: absolute; top: 0; right: 0; display: flex; align-items: center; gap: 8px; background-color: rgba(255, 255, 255, 0.95); padding: 8px 12px; border-radius: 20px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); backdrop-filter: blur(10px);">
+            <div style="width: 8px; height: 8px; background-color: #10b981; border-radius: 50%; animation: pulse 2s infinite;"></div>
+            <span style="font-size: 14px; font-weight: 500; color: #374151;">Open Availability</span>
+        </div>
+        
+        <div style="display: flex; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
+            <div style="flex: 1;">
+                <h1 style="margin: 0 0 1rem 0; font-size: 2.5rem; font-weight: 700;">Charles Marsh</h1>
+                <h2 style="margin: 0 0 1.5rem 0; font-size: 1.5rem; font-weight: 600; color: #666;">Private Tutoring Services</h2>
+                <p style="font-size: 1.1rem; line-height: 1.6; color: #333; margin: 0 0 2rem 0;">
+                    I'm a Computer Engineering student at Cal Poly, San Luis Obispo, specializing in mathematics, physics, and computer science education. I help students achieve their academic goals through personalized, one-on-one tutoring sessions.
+                </p>
+            </div>
+            <div style="flex: 0 0 240px; text-align: center;">
+                <img src="/picture.png" alt="Charles Marsh" style="width: 240px; height: 240px; border-radius: 50%; object-fit: cover; border: 4px solid #f0f0f0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+        
+        <div style="margin-top: -2rem;">
+            <h2 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1.5rem; color: #333;">Subjects & Expertise</h2>
+            
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 3rem;">
+                <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #007bff;">
+                    <h3 style="font-size: 1.3rem; font-weight: 600; margin: 0 0 1rem 0; color: #007bff;">Mathematics</h3>
+                    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;">
+                        <li><strong>AP Calculus AB/BC:</strong> Specialized preparation for AP exams, targeting 5s</li>
+                        <li><strong>High School Math:</strong> Algebra, Geometry, Trigonometry, Pre-Calculus</li>
+                        <li><strong>University Math:</strong> Calculus I/II/III, Linear Algebra, Differential Equations</li>
+                    </ul>
+                </div>
+                
+                <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #28a745;">
+                    <h3 style="font-size: 1.3rem; font-weight: 600; margin: 0 0 1rem 0; color: #28a745;">Physics</h3>
+                    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;">
+                        <li><strong>High School Physics:</strong> Mechanics, Electricity & Magnetism</li>
+                        <li><strong>AP Physics:</strong> C Mechanics, C Electricity & Magnetism</li>
+                        <li><strong>University Physics:</strong> Introductory mechanics and electromagnetism</li>
+                    </ul>
+                </div>
+                
+                <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #dc3545;">
+                    <h3 style="font-size: 1.3rem; font-weight: 600; margin: 0 0 1rem 0; color: #dc3545;">Computer Science</h3>
+                    <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;">
+                        <li><strong>Programming Fundamentals:</strong> Python, Java, C</li>
+                        <li><strong>Data Structures & Algorithms:</strong> Essential concepts for technical interviews</li>
+                        <li><strong>Introductory CS Courses:</strong> First-year programming and problem-solving</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+            <div style="background: #f8f9fa; border: 3px solid #10b981; padding: 2rem; border-radius: 16px; text-align: center; margin-bottom: 3rem; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15);">
+                <h2 style="font-size: 2.5rem; font-weight: 700; margin: 0 0 0.5rem 0; color: #10b981;">$50/hour</h2>
+                <p style="font-size: 1.2rem; margin: 0; color: #666; font-weight: 500;">for all subjects and levels</p>
+            </div>
+            
+            <h2 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 1.5rem; color: #333;">Contact Information</h2>
+            <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem;">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                    <div style="width: 40px; height: 40px; background: #007bff; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">📱</div>
+                    <div>
+                        <strong>Phone:</strong> (619) - 655 - 1808
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <div style="width: 40px; height: 40px; background: #28a745; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">✉️</div>
+                    <div>
+                        <strong>Email:</strong> marshdrummer100@gmail.com
+                    </div>
+                </div>
+            </div>
+            
+            <p style="font-style: italic; color: #666; text-align: center; margin: 2rem 0;">
+                Available for in-person tutoring in San Luis Obispo area or online sessions.
+            </p>
+            
+            <div style="text-align: center; padding: 2rem; background: #f8f9fa; border-radius: 12px;">
+                <p style="font-size: 1.2rem; color: #333; margin: 0;">
+                    Ready to help you succeed in your academic journey. Contact me to schedule a tutoring session.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{- end }}
