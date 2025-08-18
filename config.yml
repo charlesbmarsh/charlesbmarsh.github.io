@@ -1,4 +1,4 @@
-baseURL: "https://charlesbmarsh.github.io/" 
+baseURL: "https://charles-marsh.github.io/" 
 title: Charles Marsh
 theme: PaperMod
 
@@ -18,9 +18,12 @@ menu:
         - name: Projects
           url: projects/
           weight: 2
-        - name: Resume
-          url: resume.pdf
+        - name: Tutoring
+          url: tutoring/
           weight: 3
+        - name: Resume
+          url: /resume.pdf
+          weight: 4
 
 params:
     description: "My personal website."
@@ -49,15 +52,17 @@ params:
     profileMode:
           enabled: true
           title: Charles Marsh
-          subtitle: "Hello and thank you for visiting my website. I am a computer engineering student at Cal Poly, San Luis Obispo, I am passionate about embedded systems, software development, and all things music."
+          subtitle: "Hello and thank you for visiting my website. I am a 4th year computer engineering student at Cal Poly, San Luis Obispo, I am passionate about embedded systems, software development, and all things music."
           imageUrl: "picture.png"
           imageWidth: 240
           imageHeight: 240
           buttons:
-            - name: About Me
+            - name: About
               url: about/
             - name: Projects
               url: projects/
+            - name: Tutoring
+              url: tutoring/
             - name: CV
               url: resume.pdf
     socialIcons:
@@ -76,8 +81,6 @@ params:
         hiddenInSingle: true
     label:
       text: "Charles Marsh"
-      icon: favicon.ico
-      iconHeight: 18
 
 markup:
     goldmark:

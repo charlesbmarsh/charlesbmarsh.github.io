@@ -1,13 +1,184 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Embedded Systems | Charles Marsh</title><meta name=keywords content><meta name=description content="My personal website."><meta name=author content="Charles Marsh"><link rel=canonical href=https://charlesbmarsh.github.io/tags/embedded-systems/><link crossorigin=anonymous href=/assets/css/stylesheet.b73adca3318c5de2fe875d139f4f1d8cb20d67e9055aa59e1b5cb592dafcbc54.css integrity="sha256-tzrcozGMXeL+h10Tn08djLINZ+kFWqWeG1y1ktr8vFQ=" rel="preload stylesheet" as=style><link rel=icon href=https://charlesbmarsh.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://charlesbmarsh.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://charlesbmarsh.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://charlesbmarsh.github.io/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://charlesbmarsh.github.io/tags/embedded-systems/index.xml><link rel=alternate hreflang=en href=https://charlesbmarsh.github.io/tags/embedded-systems/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><meta property="og:url" content="https://charlesbmarsh.github.io/tags/embedded-systems/"><meta property="og:site_name" content="Charles Marsh"><meta property="og:title" content="Embedded Systems"><meta property="og:description" content="My personal website."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Embedded Systems"><meta name=twitter:description content="My personal website."><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css integrity=sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js integrity=sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js integrity=sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk crossorigin=anonymous onload=renderMathInElement(document.body)></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\begin{equation}",right:"\\end{equation}",display:!0},{left:"\\begin{equation*}",right:"\\end{equation*}",display:!0},{left:"\\begin{align}",right:"\\end{align}",display:!0},{left:"\\begin{align*}",right:"\\end{align*}",display:!0},{left:"\\begin{alignat}",right:"\\end{alignat}",display:!0},{left:"\\begin{gather}",right:"\\end{gather}",display:!0},{left:"\\begin{CD}",right:"\\end{CD}",display:!0}],throwOnError:!1})})</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://charlesbmarsh.github.io/ accesskey=h title="Charles Marsh (Alt + H)"><img src=https://charlesbmarsh.github.io/favicon.ico alt aria-label=logo height=18>Charles Marsh</a><div class=logo-switches></div></div><ul id=menu><li><a href=https://charlesbmarsh.github.io/about/ title="About Me"><span>About Me</span></a></li><li><a href=https://charlesbmarsh.github.io/projects/ title=Projects><span>Projects</span></a></li><li><a href=https://charlesbmarsh.github.io/resume.pdf target=_blank rel=noopener title=Resume><span>Resume</span>
-<svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14 21 3"/></svg></a></li></ul></nav></header><main class=main><header class=page-header><h1><svg width="22" height="22" stroke-width="2" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 14"><path d="M6 4.5a1.5 1.5.0 11-3 0 1.5 1.5.0 013 0zm-1 0a.5.5.0 10-1 0 .5.5.0 001 0z"/><path d="M2 1h4.586a1 1 0 01.707.293l7 7a1 1 0 010 1.414l-4.586 4.586a1 1 0 01-1.414.0l-7-7A1 1 0 011 6.586V2a1 1 0 011-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/></svg>&nbsp; Embedded Systems</h1></header><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Home Energy Management System - Cal Poly Capstone Project</h2></header><div class=entry-content><p>Project Overview As electric vehicles and household appliances increase energy demand, home electrical panels can become overloaded. This capstone project aims to create a home energy monitoring system that empowers users to track their energy usage and dynamically adjust EV charging rates, helping balance overall power consumption and prevent overloads.
-View on GitHub
-*Capstone Expo Posterboard - Complete system architecture and demonstration*
-Key Responsibilities Team Leadership: Coordinated efforts across hardware, software, and systems integration Embedded Systems Design: Designed and implemented a finite state machine (FSM) responsible for translating raw current measurements from a current transformer clamp into actionable charging commands for the EV charger. This system utilized a custom algorithm to dynamically modulate EV charge rates through the Open Charge Point Protocol server using Python. Technical Implementation IoT Power Energy Monitor: Current measurement and serial communication for real-time power monitoring Variac & Step-Down Transformer: Adjustable AC voltage output and simulated electric panel for testing OCPP Server: Implemented Open Charge Point Protocol server for standardized EV charging communication Adaptive Control Algorithm: Developed Python-based state machine for dynamic charging rate adjustment based on current thresholds Hardware Integration: Successfully integrated multiple hardware platforms (ESP32, Raspberry Pi, Variac, step-down transformer) Experimental Results The system successfully demonstrated real-time energy monitoring and adaptive control capabilities:
-...</p></div><footer class=entry-footer><span title='2025-06-01 00:00:00 +0000 UTC'>June 2025</span>&nbsp;&#183;&nbsp;Charles Marsh</footer><a class=entry-link aria-label="post link to Home Energy Management System - Cal Poly Capstone Project" href=https://charlesbmarsh.github.io/projects/cal-poly-capstone/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>STM32 LED Sequence Memory Game</h2></header><div class=entry-content><p>Embedded Systems Final Project | Cal Poly
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Embedded Systems | Charles Marsh</title>
+<meta name="keywords" content="">
+<meta name="description" content="My personal website.">
+<meta name="author" content="Charles Marsh">
+<link rel="canonical" href="http://localhost:1313/tags/embedded-systems/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a61afc7345571f7a1e53b37fd51089f2ed355ef9c7e9152f927f74fca44b097f.css" integrity="sha256-phr8c0VXH3oeU7N/1RCJ8u01XvnH6RUvkn90/KRLCX8=" rel="preload stylesheet" as="style">
+<style>
+ 
+body.home .header,
+body.home header.header {
+    display: none !important;
+}
+
+ 
+.main .profile {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.profile .profile_inner {
+    align-items: flex-start;
+}
+
+ 
+.main .profile {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+ 
+.profile .buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile .button {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+</style>
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/embedded-systems/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/embedded-systems/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+</head>
+
+<body class="list" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Charles Marsh (Alt + H)">Charles Marsh</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tutoring/" title="Tutoring">
+                    <span>Tutoring</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/resume.pdf" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Embedded Systems
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Home Energy Management System - Cal Poly Capstone Project
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Project Overview As electric vehicles and household appliances increase energy demand, home electrical panels can become overloaded. This capstone project aims to create a home energy monitoring system that empowers users to track their energy usage and dynamically adjust EV charging rates, helping balance overall power consumption and prevent overloads.
+View on GitHub *Capstone Expo Posterboard - Complete system architecture and demonstration* Key Responsibilities Team Leadership: Coordinated efforts across hardware, software, and systems integration Embedded Systems Design: Designed and implemented a finite state machine (FSM) responsible for translating raw current measurements from a current transformer clamp into actionable charging commands for the EV charger. This system utilized a custom algorithm to dynamically modulate EV charge rates through the Open Charge Point Protocol server using Python. Technical Implementation IoT Power Energy Monitor: Current measurement and serial communication for real-time power monitoring Variac &amp; Step-Down Transformer: Adjustable AC voltage output and simulated electric panel for testing OCPP Server: Implemented Open Charge Point Protocol server for standardized EV charging communication Adaptive Control Algorithm: Developed Python-based state machine for dynamic charging rate adjustment based on current thresholds Hardware Integration: Successfully integrated multiple hardware platforms (ESP32, Raspberry Pi, Variac, step-down transformer) Experimental Results The system successfully demonstrated real-time energy monitoring and adaptive control capabilities:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-01 00:00:00 +0000 UTC'>January 2025</span>&nbsp;·&nbsp;Charles Marsh</footer>
+  <a class="entry-link" aria-label="post link to Home Energy Management System - Cal Poly Capstone Project" href="http://localhost:1313/projects/cal-poly-capstone/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">STM32 LED Sequence Memory Game
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Embedded Systems Final Project | Cal Poly
 Youtube Demo
 Project Overview Implemented a Simon Says memory game inspired by humanbenchmark.com, featuring a 3x4 LED matrix that displays increasing sequence patterns for players to replicate using a keypad. The game progressively increases difficulty with longer sequences and faster timing, testing memory skills while demonstrating embedded systems knowledge.
-Technologies Used C Programming with STM32 microcontroller I2C & SPI communication protocols STM32CubeIDE development environment Hardware Diagram Hardware Components STM32 Nucleo Microcontroller: Rented from CPE department, ARM Cortex-M4 processor 4x3 Keypad: 12-button matrix for user input (1-9, *, 0, #) MCP23017 I2C I/O Expander: Controls 12-LED matrix via I2C communication 12 LEDs: Arranged in 3x4 matrix with 150Ω current-limiting resistors LCD Display: 16x2 character display for game instructions and scoring Jumper Cables: Custom wiring for component interconnection USB-A to USB-mini: Power and programming interface Learning Outcomes Embedded Programming: Deep understanding of C programming for the STM32 microcontroller programming and HAL library usage Hardware Interfacing: Experience with I2C, GPIO, SPI, timers, and peripheral management This final project for my embedded systems class demonstrates the practical application of embedded systems concepts in creating engaging, interactive applications that combine hardware and software effectively. The project showcases comprehensive understanding of microcontroller programming, communication protocols, and user interface design principles.
-...</p></div><footer class=entry-footer><span title='2024-03-01 00:00:00 +0000 UTC'>March 2024</span>&nbsp;&#183;&nbsp;Charles Marsh</footer><a class=entry-link aria-label="post link to STM32 LED Sequence Memory Game" href=https://charlesbmarsh.github.io/projects/sequence-memory-game/></a></article></main><footer class=footer><span>&copy; 2025 Charles Marsh</span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>hugo</a>, <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>papermod</a>, &
-<a href=https://github.com/pmichaillat/hugo-website/ rel=noopener target=_blank>hugo-website</a>.</span></footer><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script></body></html>
+Technologies Used C Programming with STM32 microcontroller I2C &amp; SPI communication protocols STM32CubeIDE development environment Hardware Diagram Hardware Components STM32 Nucleo Microcontroller: Rented from CPE department, ARM Cortex-M4 processor 4x3 Keypad: 12-button matrix for user input (1-9, *, 0, #) MCP23017 I2C I/O Expander: Controls 12-LED matrix via I2C communication 12 LEDs: Arranged in 3x4 matrix with 150Ω current-limiting resistors LCD Display: 16x2 character display for game instructions and scoring Jumper Cables: Custom wiring for component interconnection USB-A to USB-mini: Power and programming interface Learning Outcomes Embedded Programming: Deep understanding of C programming for the STM32 microcontroller programming and HAL library usage Hardware Interfacing: Experience with I2C, GPIO, SPI, timers, and peripheral management This final project for my embedded systems class demonstrates the practical application of embedded systems concepts in creating engaging, interactive applications that combine hardware and software effectively. The project showcases comprehensive understanding of microcontroller programming, communication protocols, and user interface design principles.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-01 00:00:00 +0000 UTC'>January 2024</span>&nbsp;·&nbsp;Charles Marsh</footer>
+  <a class="entry-link" aria-label="post link to STM32 LED Sequence Memory Game" href="http://localhost:1313/projects/sequence-memory-game/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Charles Marsh</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+</body>
+
+</html>

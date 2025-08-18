@@ -1,0 +1,59 @@
+/* Hide navigation on home page only */
+body.home .header,
+body.home header.header {
+    display: none !important;
+}
+
+/* Align profile to left instead of center */
+.main .profile {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.profile .profile_inner {
+    align-items: flex-start;
+}
+
+/* Adjust profile positioning */
+.main .profile {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Ensure about page content is also left-aligned */
+.about .post-content {
+    text-align: left;
+}
+
+/* Pulsing animation for availability indicator */
+@keyframes pulse {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Tutoring page specific styles */
+.tutoring .post-content {
+    text-align: left;
+}
+
+/* Responsive design for tutoring page */
+@media (max-width: 768px) {
+    .tutoring .post-content div[style*="display: flex"] {
+        flex-direction: column !important;
+    }
+    
+    .tutoring .post-content div[style*="flex: 0 0 300px"] {
+        flex: 0 0 auto !important;
+        margin-top: 1rem;
+    }
+}
