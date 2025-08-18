@@ -67,7 +67,6 @@ title: ""
 
 ## Why Choose Me?
 - **Current Student Perspective:** As a 4th year Computer Engineering student, I understand the challenges students face in the current education climate, and know what's expected from teachers and professors.
-- **Recent Experience:** I'm actively learning and using these subjects daily
 - **Personalized Approach:** One-on-one sessions tailored to your learning style and pace
 - **Flexible Scheduling:** Available for both in-person and online tutoring sessions
 
@@ -87,13 +86,6 @@ title: ""
 <p style="font-style: italic; color: #666; text-align: center; margin: 2rem 0;">
   Available for in-person tutoring in San Luis Obispo area or online sessions.
 </p>
-
-<div style="text-align: center; padding: 2rem; background: #f8f9fa; border-radius: 12px;">
-  <p style="font-size: 1.2rem; color: #333; margin: 0;">
-    Ready to help you succeed in your academic journey. Contact me to schedule a tutoring session.
-  </p>
-</div>
-
 ---
 
 *I'm passionate about helping students understand complex concepts and build confidence in their STEM abilities. Let's work together to achieve your academic goals!*
